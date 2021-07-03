@@ -1,0 +1,62 @@
+#patient-idnumber::-webkit-outer-spin-button,
+#patient-idnumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#patient-idnumber {
+  -moz-appearance: textfield;
+}
+
+
+#patient-unknown-commentary-box {
+    display: none;
+}
+
+.patient-registeredPatientError {
+  font-size: 10pt;
+  color: #dc3545;
+}
+
+.singlepatient-info {
+  color:  #17a2b8;
+  font-size: 1.3em;
+}
+
+.singlepatient-i-editable {
+  cursor: pointer;
+  /*border: 1px solid #17a2b8;*/
+  padding: .6vh 2vw;
+  border-radius: 5px;
+}
+
+.singlepatient-i-editable::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f044";
+  color: #186975;
+  margin-right: .5vw;
+}
+
+.singlepatient-picture {
+  max-width: 100px;
+  height: auto;
+
+}
+
+.singlepatient-info-heading {
+  font-size: 14pt;
+}
+
+.singlepatient-longtext {
+  font-size: 1em;
+}
+
+.brand-link .brand-image {
+  float: none;
+}
+
+#mainsearchDropdown {
+  min-width: 35vw;
+  max-width: 35vw;
+}
