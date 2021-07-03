@@ -1,0 +1,52 @@
+/* CSS Document */
+@font-face {
+	font-family: 'mainforsite';
+	src: url(../fonts/mainfont.ttf);
+}
+
+body {
+	color: white;
+	font-family: 'mainforsite';
+	background: linear-gradient(270deg, #b8d342, #42d3a7, #d39642, #42a5d3);
+	background-size: 800% 800%;
+
+	-webkit-animation: MainBg 31s ease infinite;
+	-moz-animation: MainBg 31s ease infinite;
+	-o-animation: MainBg 31s ease infinite;
+	animation: MainBg 31s ease infinite;
+}
+
+@-webkit-keyframes MainBg {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes MainBg {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-o-keyframes MainBg {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes MainBg { 
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+}
+
+.emptycontainer {
+	margin-top: 30vh;
+}
+.ctrlpbtn {
+	background-color: #b7d432;
+	transition: background-color 0.7s ease-in-out,
+				color 0.7s ease-in-out;
+}
+
+.ctrlpbtn:hover {
+	background-color: black;
+	color: white;
+}

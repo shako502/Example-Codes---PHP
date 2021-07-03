@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'fontmain';
+	src: url(../fonts/mainfont.ttf);
+}
+.prodFormatContainer {
+	display: none;
+	border-radius: 10px 0px;
+	transition: background-color 0.3s;
+}
+
+.help-block {
+    color: #a94442;
+}
+
+.select-class{
+    border: solid 1px #a94442;
+
+}
+
+.select-class:focus{
+	border-color: #843534;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+  outline: 0 none;
+}
+
+
+a, span, body {
+	font-family: 'fontmain';
+}
+
+.activelink a:after {
+	color: relative;
+	content: '\00ab';
+   text-decoration:none;
+	font-size: relative;
+	margin-left: 5px;
+}
+
+.activelink {
+	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	text-decoration: none;
+}
+
+.seperator {
+	margin-bottom: 20px;
+	display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+.make-offer {
+	margin-right: 40px;
+}
+
+.make-order {
+	margin-left: 40px;
+}
+
+.product-info-block {
+	border: solid 1px #7C8B81;
+	border-radius: 5px;
+}
+
+.client-info-block {
+	border: solid 1px #7C8B81;
+	border-radius: 5px;
+}
+
+
+.notes-container {
+	-webkit-box-shadow: inset 0px -1px 44px -12px rgba(87,84,84,1.00);
+	-moz-box-shadow: inset 0px -1px 44px -12px rgba(87,84,84,1.00);
+	box-shadow: inset 0px -1px 44px -12px rgba(87,84,84,1.00);
+	padding: 20px;
+	height: 260px;
+	overflow: hidden;
+	overflow-y: scroll;
+	background: rgba(183,212,50,1.00);
+	border-radius: 10px;
+}
+
+.notes-container::-webkit-scrollbar {
+display: none;
+}
+
+.notescard {
+	margin-bottom: 10px;
+}
+
+.redirectclass{
+	cursor: pointer;
+}
+
+.gobacktosaved {
+	cursor: pointer;
+	font-size: 35pt;
+}
+
+
+.tirage-changer {
+	margin-bottom: 20px;
+}
